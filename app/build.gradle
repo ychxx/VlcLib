@@ -40,4 +40,5 @@ dependencies {
     /* 下载 */
     implementation 'org.xutils:xutils:3.5.0'
     implementation project(path: ':libvlc')
+//    implementation 'com.github.ychxx:VlcLib:1.1'
 }

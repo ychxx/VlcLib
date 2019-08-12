@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+    <org.videolan.libvlc.view.VLCVideoView
+        android:id="@+id/vlc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/ivHuXinBack"
+        android:layout_width="48dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_vertical|left"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:padding="12dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/back" />
+
+
+    <LinearLayout
+        android:id="@+id/layout_pross"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/control_Main"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/more" />
+
+    <ImageView
+        android:id="@+id/control_Speed"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="104dp"
+        android:layout_marginBottom="184dp"
+        android:src="@drawable/control_speed"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/control_Setting"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="184dp"
+        android:layout_marginBottom="150dp"
+        android:src="@drawable/setup_video"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/control_Direction"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="175dp"
+        android:layout_marginBottom="68dp"
+        android:src="@drawable/move"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/control_Up"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="104dp"
+        android:layout_marginBottom="184dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/up" />
+
+
+    <ImageView
+        android:id="@+id/control_Left"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="184dp"
+        android:layout_marginBottom="104dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/left" />
+
+    <ImageView
+        android:id="@+id/control_Down"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="104dp"
+        android:layout_marginBottom="24dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/down" />
+
+    <ImageView
+        android:id="@+id/control_Right"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="104dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/right" />
+
+</RelativeLayout>
